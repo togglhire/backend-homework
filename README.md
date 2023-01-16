@@ -2,7 +2,7 @@
 
 The goal of this assignment is to see how familiar you are with developing APIs in Go. We tried to pick a task that is similar to what you would do at Toggl Hire, while keeping it minimal so you can finish it in a short time.
 
-Create a new repository on GitHub. You can [use this one as a template](https://github.com/togglhire/backend-homework/generate). Commit your solution to your repository and send us a link to it. If you prefer having the repository private, please add [eruanntion](https://github.com/eruanntion) as a collaborator, so we can review it.
+Create a new repository on GitHub. You can [use this one as a template](https://github.com/togglhire/backend-homework/generate). Commit your solution to your repository and send us a link to it. If you prefer having the repository private, please add [kmikiy](https://github.com/kmikiy) as a collaborator, so we can review it.
 
 ## Description
 
