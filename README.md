@@ -2,7 +2,7 @@
 
 The goal of this assignment is to see how familiar you are with developing APIs in Go. We tried to pick a task that is similar to what you would do at Toggl Hire, while keeping it minimal so you can finish it in a short time.
 
-Create a new repository on GitHub. You can [use this one as a template](https://github.com/togglhire/backend-homework/generate). Commit your solution to your repository and send us a link to it. If you prefer having the repository private, please add [kmikiy](https://github.com/kmikiy) as a collaborator, so we can review it.
+Create a new repository on GitHub. You can [use this one as a template](https://github.com/togglhire/backend-homework/generate). Commit your solution to your repository and send us a link to it. If you prefer having the repository private, please add [kmikiy](https://github.com/kmikiy) or [Nils](https://gihub.com/nilsolofsson) as a collaborator, or archive it in a `.zip` file and upload it in the test so that we can review it.
 
 ## Description
 
@@ -125,11 +125,10 @@ These requirements are not required, but feel free to complete some of them if t
 
   This can be in the form of basic offset pagination, or seek pagination. The difference is explained in [this post](https://web.archive.org/web/20210205081113/https://taylorbrazelton.com/posts/2019/03/offset-vs-seek-pagination/).
 
-- [ ] JWT authentication mechanism
+- [ ] User sessions and ownership
   
-  Clients are required to send a JSON Web Token that identifies the user in some way. The API returns only questions that belong to the authenticated user. Endpoint for generating tokens is not needed, we can generate them through [jwt.io](https://jwt.io/).
-
-- [ ] Use GraphQL instead of REST to implement the API
+  Add users, user authorization and authentication. The session should be stored in a JWT token that the client is required to reuse after authentication. The API should only return and allow edits on the questions that belong to the user.
+- [ ] Implement the API with GraphQL.
 
   Define a schema for the API that covers the basic requirements and implement all queries and resolvers. You do not need to implement the REST API if you choose to do this.
 
